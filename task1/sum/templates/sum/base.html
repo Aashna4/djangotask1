@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List of numbers</title>
+        <h1>List of numbers</h1>
+    </head>
+    <body>
+        <form action="print" method='post'>
+
+            {% csrf_token %}
+
+            Enter first number<input type="number" name="num1"><br>
+            Enter second number<input type="number" name="num2"><br>
+            <input type="submit">
+        </form>
+    </body>
+
+</html>
